@@ -31,8 +31,6 @@ public class pageObjectClass {
             String codeval = jsonObject.get("code").toString();
             System.out.println("code :"+codeval);
 //            String codeval1 = jsonObject.get("meta").toString();
-            System.out.println("meta sdfdwe:");
-            System.out.println("meta sdfdwe:");
             JSONObject meta = jsonObject.getJSONObject("meta");
             JSONObject pagination = meta.getJSONObject("pagination");
             String total = pagination.get("total").toString();
