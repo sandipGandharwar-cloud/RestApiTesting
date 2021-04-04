@@ -31,10 +31,10 @@ public class pageObjectClass {
             String codeval = jsonObject.get("code").toString();
             System.out.println("code :"+codeval);
 //            String codeval1 = jsonObject.get("meta").toString();
-            JSONObject meta = jsonObject.getJSONObject("meta");
-            JSONObject pagination = meta.getJSONObject("pagination");
-            String total = pagination.get("total").toString();
-            System.out.println("total :"+total);
+//            JSONObject meta = jsonObject.getJSONObject("meta");
+//            JSONObject pagination = meta.getJSONObject("pagination");
+//            String total = pagination.get("total").toString();
+//            System.out.println("total :"+total);
 
             Assert.assertEquals("200",codeval);
 //            JSONObject code = jsonObject.getJSONObject("code");
